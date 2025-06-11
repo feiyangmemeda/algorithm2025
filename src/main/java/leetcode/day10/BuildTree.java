@@ -15,7 +15,6 @@ public class BuildTree {
         int[] array1 = {1,2};
         int[] array2 = {2,1};
         TreeNode treeNode = buildTree(array1, array2);
-        // 广度优先遍历树
         System.out.println(treeNode);
     }
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
